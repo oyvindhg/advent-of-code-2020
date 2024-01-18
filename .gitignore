@@ -1,0 +1,11 @@
+# IDE files
+.idea/
+
+# Compiled
+__pycache__/
+
+# Environments
+venv/
+
+# Data folder used in solutions
+/data/real/
