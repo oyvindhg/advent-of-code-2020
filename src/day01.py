@@ -26,11 +26,13 @@ def solve_2(numbers: list[int]) -> int:
 
 def main():
     numbers = parse_puzzle('data/real/day01.txt')
+
     start_time = time.time()
     print('---Task 1---')
     print(f"Solution 1: {solve_1(numbers)}")
     print(f"Time: {time.time() - start_time:.4f} ms")
     print()
+    
     start_time = time.time()
     print('---Task 2---')
     print(f"Solution 2: {solve_2(numbers)}")
