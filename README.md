@@ -33,10 +33,9 @@ Run a puzzle solution with
 
 ## Test
 
-Run a test puzzle with
+The tests are testing the solution on the small examples given in the puzzle description
 
-    pytest tests/test_day01.py
+Run a test puzzle solution with
 
-or run all tests with
+    pytest src/day01.py
 
-    pytest
